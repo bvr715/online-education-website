@@ -1,0 +1,79 @@
+.heading{
+  font-size: 4rem;
+  color:#ff046f;
+  text-align: center;
+  padding: 0 1rem;
+  padding-top: 6rem;
+  letter-spacing: .2rem;
+  font-weight: 500;
+}
+.title{
+ padding:0 1rem;
+ font-size: 2rem;
+ text-align: center;
+ font-weight: 400;
+ color: #aaa;
+}
+.about{
+  padding: 1rem;
+}
+.about .about-row{
+display: flex !important;
+align-items: center !important;
+justify-content: center !important;
+}
+
+.about .about-row .image img{
+  height: 70vh;
+  width: 50vw;
+}
+.about .about-row .content{
+  padding-left: 5rem;
+}
+
+.about .about-row .content h3{
+  font-size: 3rem;
+  color: #ff046f;
+}
+
+.about .about-row .content p{
+  font-size: 1.6rem;
+  color: #999;
+  padding: 1rem 0;
+}
+
+.about .about-row .content button{
+  height: 3.5rem;
+  width: 17rem;
+  background:#c63bfa;
+  color: #fff;
+  border: none;
+  border-radius: 5rem;
+  box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+  cursor: pointer;
+  transition: .2s;
+}
+
+.about .about-row .content button:hover{
+  letter-spacing: .2rem;
+  opacity: .8;
+}
+
+
+
+@media (max-width:768px) {
+
+  .about .about-row{
+    flex-flow: column-reverse;
+  }
+  .about .about-row .image img{
+    height: 60vh;
+    width: 90vw;
+  }
+
+  .about .about-row .content{
+    padding: 0 2.5rem;
+  }
+
+}
+
